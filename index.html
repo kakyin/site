@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - CapybaraCoin</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav>
+        <img src="./img/logos/CapybaraToken_logo.png" onclick="window.location.href='./index.html';" width="50px"  alt="CPBC Logo">
+        <input type="checkbox" id="checkbox_toggle" />
+        <ul class="nav-elements regular">
+            <li><a class="menu-element"  href="./index.html#contract">Contract</a></li>
+            <li><a class="menu-element"  href="./index.html#buy">Buy</a></li>
+            <li><a class="menu-element"  href="./index.html#partners">Platforms</a></li>
+            <li><a class="menu-element" target="_blank" href="./whitepaper.html">Whitepaper</a></li>
+            <li class="socials">
+                <a href="https://twitter.com/0xcapybaracoin"><img src="./img/logos/twitter_logo.svg" alt=""></a>
+                <a href="https://discord.gg/PFR4cyj6k9"><img src="./img/logos/discord_logo.svg" alt=""></a>
+                <!-- <a href="#"><img src="./img/logos/telegram_logo.svg" alt=""></a>
+                <a href="#"><img src="./img/logos/tiktok_logo.svg" alt=""></a> -->
+            </li>
+        </ul>
+        <label for="checkbox_toggle" class="hamburger"><span class="hamburger-line"></span></label>
+    </nav>
+
+    <div class="screen-1">
+        <div class="phone-pic"> <img src="./img/phone_screen1_small.png" alt=""> </div>
+        <div class="color-white text">
+            <h2>CapybaraCoin</h2>
+            <div>
+                <p>$CPBC is a token built on the Binance Smart Chain. It is a meme coin that is designed to be used as a medium of exchange and investment.</p>
+                <p>The goal of the team is to convert the CPBC coin from a meme coin to a real, useful token with various use cases.</p>
+            </div>
+            <div class="cta-zone">
+                <div class="contract-mini color-gray">
+                    <span class="numeric-style">0x62538B75606f...24E</span>
+                    <button id="copy1"> <img src="./img/logos/copy_icon.svg" width="22px" alt=""> </button>
+                </div>
+                <button class="cta-btn regular color-white" onclick="window.location.href='#buy';">How to buy</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="screen-2" id="contract">
+        <div class="example">
+            <h2>Smart contract</h2>
+            <p class="color-gray">This is the official address of CPBC smart contract.</p>
+            <div class="contract-mini color-gray" >
+                <span class="numeric-style">0x62538B75606f08c1cac2C543DB9D6500d351624E</span>
+                <button id="copy2"> <img src="./img/logos/copy_icon.svg" width="22px" alt=""> </button>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="example">
+                <img src="./img/logos/metamask_logo.svg" alt="">
+                <h3>Metamask</h3>
+                <p class="color-gray">Add CPBC asset to your Metamask wallet automatically, so you could see the amount of it and interact with your coins.</p>
+                <button id="enableEthereumButton" class="blue-btn">Add to Metamask</button>
+            </div>
+            <div class="example">
+                <img src="./img/logos/bscscan_logo.svg" alt="">
+                <h3>BscScan</h3>
+                <p class="color-gray">There is able to view the token's contract address, token holders, token transactions, and related information.</p>
+                <button class="orange-btn" onclick="window.location.href='https://bscscan.com/token/0x62538B75606f08c1cac2C543DB9D6500d351624E';">Open BscScan</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="screen-3" id="buy">
+        <h2>How to Buy?</h2>
+        <div class="wrapper">
+            <div class="example">
+                <img src="./img/logos/metamask-plus-nbn.svg" alt="">
+                <h3>Step 1</h3>
+                <p class="color-gray">Add Metamask extension to your browser and fund it with some BNB coins.</p>
+            </div>
+            <div class="example">
+                <img src="./img/logos/pancackeswap_logo.svg" alt="">
+                <h3>Step 2</h3>
+                <p class="color-gray">Go to <a class="link" href="#">pancackeswap.finance</a> and set the trading pair BNB-CPBC.</p>
+            </div>
+            <div class="example">
+                <img src="./img/logos/CapybaraToken_logo.png" alt="">
+                <h3>Step 3</h3>
+                <p class="color-gray">Now you can swap your BNB for CPBC. Set your slippage to 5-6% . Click on the Swap Button to finalize your trade.</p>
+            </div>
+        </div>
+        <p class="learn-more">Learn more on <a class="link" href="./faq.html">FAQ</a> page</p>
+    </div>
+
+    <div class="screen-4" id="partners">
+        <div class="header">
+            <h2>We are on crypto platforms!</h2>
+            <p>Decentralized monitoring platforms where you can find the $CPBC token</p>
+        </div>
+        <div class="wrapper">
+            <div><a href="#"><img class="inactive" src="./img/logos/partners/coincheckup.svg" alt=""></a></div>
+            <div><a href="#"><img class="inactive" src="./img/logos/partners/coincodex.svg" alt=""></a></div>
+            <div><a href="#"><img class="inactive" src="./img/logos/partners/coingecko.svg" alt=""></a></div>
+            <div><a href="#"><img class="inactive" src="./img/logos/partners/coinhunt.svg" alt=""></a></div>
+            <div><a href="#"><img class="inactive" src="./img/logos/partners/coinmarketcap.svg" alt=""></a></div>
+            <div><a href="#"><img class="inactive" src="./img/logos/partners/tokeninsight.svg" alt=""></a></div>
+        </div>
+    </div>
+
+    <div class="screen-5">
+        <h2>Whitepaper</h2>
+        <div>
+            <p class="regular-large color-gray">
+                Learn more about CapybaraCoin. whitepaper contains comprehensive information about buying a token and making a profit. You will also find there about tokenomics and plans for the further development of the project.
+            </p>
+            <form action="./whitepaper.html">
+                <button class="blue-btn" type="submit">Open Whitepaper →</button>
+            </form>
+            
+        </div>
+    </div>
+
+    <footer class="color-white">
+        <div class="block-capy">
+            <h3>CapybaraToken</h3>
+            <img src="./img/logos/CapybaraToken_logo.png" width="100px"  alt="">
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a target="_blank" href="https://twitter.com/0xcapybaracoin">Twitter</a></li>
+                <li><a target="_blank" href="https://www.tiktok.com/@capybaracoincommunity">TikTok</a></li>
+                <li><a target="_blank" href="https://discord.gg/PFR4cyj6k9">Disccord</a></li>
+                <!-- <li><a href="#">Telegram</a></li> -->
+            </ul>
+        </div>
+        <div>
+            <h3>Members</h3>
+            <ul>
+                <li><a target="_blank" href="./faq.html">FAQ</a></li>
+                <li><a target="_blank" href="./whitepaper.html">Whitepaper</a></li>
+                <li><a href="#">Branding Guide</a></li>
+                <li><a href="#">Public API</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>About</h3>
+            <ul>
+                <li><a target="_blank" href="./index.html#contract">Contract</a></li>
+                <li><a target="_blank" href="./index.html#buy">Buy Token</a></li>
+                <li><a target="_blank" href="https://www.dexview.com/bsc/0x62538B75606f08c1cac2C543DB9D6500d351624E">DEX View</a></li>
+                <li><a target="_blank" href="https://bscscan.com/token/0x62538B75606f08c1cac2C543DB9D6500d351624E">BscScan</a></li>
+                <li><a target="_blank" href="./index.html#contract">Add to Metamask</a></li>
+            </ul>
+        </div>
+        <hr/>
+        <span class="color-gray copyright">© 2022 CapybaraCoin. All rights rereserved. </span>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+.screen-1{
+    min-height: 100vh;
+    background-image: url(./img/background_screen1_blur.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.screen-1 .phone-pic{
+    padding-left: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.screen-1 .phone-pic img{
+    width: auto;
+    height: 100%;
+    max-width: 300px;
+    max-height: 595px;
+}
+
+.screen-1 .text{
+    padding: 50px;
+    padding-left: 10px;
+    max-width: 500px;
+}
+
+.screen-1 .text .cta-zone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+}
+
+
+
+.screen-1 .text h2{
+    margin-bottom: 40px;
+}
+
+.screen-1 .text p{
+    margin-bottom: 30px;
+}
+
+.screen-1 .contract-mini{
+    width: 250px;
+    height: 35px;
+    background: #DBDBDB;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.screen-1 .contract-mini button{
+    width: 27px;
+    height: 27px;
+    background: #EAEAEA;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    margin-right: 4px;
+}
+
+.screen-1 .contract-mini span{
+    margin: 0 9px;
+}
+
+.screen-1 .contract-mini button img{
+    opacity: 40%;
+}
+
+/* SCREEN 2 */
+/* SCREEN 2 */
+/* SCREEN 2 */
+
+.screen-2{
+    min-height: 90vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+
+.screen-2 .wrapper{
+    display: flex;
+}
+.screen-2 .wrapper div{
+    width: 50%;
+}
+
+.screen-2 .example{
+    background-color: rgb(255, 255, 255);
+    /* outline: 1px solid #ff3a3a; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    /* height: 45vh; */
+    padding-top: 10px;
+}
+
+.screen-2 .example h2{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.screen-2 .example p {
+    text-align: center;
+    margin-bottom: 15px;
+    max-width: 415px;
+}
+
+.screen-2 .example h3{
+    margin: 15px 0;
+}
+
+.screen-2 .contract-mini{
+    max-width: fit-content;
+    height: 35px;
+    background: #DBDBDB;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.screen-2 .contract-mini button{
+    width: 27px;
+    height: 27px;
+    min-width: 27px;
+    min-height: 27px;
+    background: #EAEAEA;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    margin-right: 4px;
+}
+
+.screen-2 .contract-mini span{
+    overflow: hidden;
+    margin: 0 9px;
+}
+
+.screen-2 .contract-mini button img{
+    opacity: 40%;
+}
+
+.screen-2 .wrapper img{
+    width: 100px;
+    height: 100px;
+}
+
+/* SCREEN 3 */
+/* SCREEN 3 */
+/* SCREEN 3 */
+
+.screen-3{
+    min-height: 90vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.screen-3 h2{
+    margin: 50px 0;
+}
+
+.screen-3 h3{
+    margin: 20px 0;
+}
+
+.screen-3 .wrapper{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.screen-3 .example{
+    background-color: rgb(255, 255, 255);
+    /* outline: 1px solid #ff3a3a; */
+    width: 33.3%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.screen-3 .example p{
+    text-align: center;
+    max-width: 280px;
+}
+
+.screen-3 img{
+    height: 90px;
+    width: auto;
+}
+
+.screen-3 .learn-more{
+    margin-top: 50px;
+}
+
+/* SCREEN 4 */
+/* SCREEN 4 */
+/* SCREEN 4 */
+
+.screen-4{
+    min-height: 90vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.screen-4 .wrapper{
+    max-width: 420px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 30px;
+}
+
+.screen-4 .wrapper div{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #9C9C9C;
+    border-radius: 15px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .screen-4 .header{
+    margin-top: 20px;
+} */
+
+.screen-4 h2, p{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.screen-4 .wrapper img{
+    width: 85px;
+    height: 85px;
+    opacity: 90%;
+}
+
+.screen-4 .inactive{
+    opacity: 30% !important; 
+    cursor: not-allowed;
+}
+
+/* SCREEN 5 */
+/* SCREEN 5 */
+/* SCREEN 5 */
+
+.screen-5{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen-5 div{
+    max-width: 780px;
+    margin: 15px;
+    border: 1px solid #9C9C9C;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.screen-5 div p{
+    max-width: 650px;
+}
+
+@media (max-width: 900px){
+    .screen-1 .phone-pic{
+        display: none;
+    }
+
+    .screen-1 .text{
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .screen-2 .wrapper{
+        display: block;
+    }
+
+    .screen-2 .wrapper div{
+        width: 100%;
+    }
+
+    .screen-2 .contract-mini{
+        width: 80%;
+    }
+
+    .screen-3 .wrapper{
+        display: block;
+    }
+
+    .screen-3 .example{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 30px;
+    }
+}
