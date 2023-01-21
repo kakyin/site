@@ -5,7 +5,7 @@ copyBtn1.addEventListener('click', copyHandler);
 copyBtn2.addEventListener('click', copyHandler);
 
 function copyHandler(){
-    text = '1x23456';
+    text = '0x62538B75606f08c1cac2C543DB9D6500d351624E';
     if (window.clipboardData && window.clipboardData.setData) {
       // IE: prevent textarea being shown while dialog is visible
       return window.clipboardData.setData("Text", text);
